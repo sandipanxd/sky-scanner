@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: 'MeriWeather', sans-serif;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@100;200;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url('https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* overflow:hidden;
+    height: 100vh; */
+    font-family: 'Merriweather', sans-serif;
+}
+

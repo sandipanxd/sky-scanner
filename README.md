@@ -1,0 +1,2 @@
+A weather web-app made using HTML, JavaScript, ReactJS and Tailwind CSS.
+In this project, i have fetched data from OpenWeather endpoints and displayed the temperature, max, min, humidity, real feel, sunrise, sunset, hourly, and daily forecast. Also displayed the local time at the selected location. For input, there are some quick links on top along with a text box for searching a city and also a current location-based search.
